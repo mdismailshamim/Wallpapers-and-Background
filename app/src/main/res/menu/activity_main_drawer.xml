@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/wallpaper"
+            android:icon="@drawable/ic_wallpaper_black_24dp"
+            android:title="Wallpapers"
+            android:checked="true"/>
+        <item
+            android:id="@+id/favorites"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+    </group>
+
+    <!--<group android:checkableBehavior="single">
+        <item android:title="Category">
+            <menu>
+                <item android:id="@+id/flower"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:title="Flower"/>
+                <item android:id="@+id/agriculture"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:title="Agriculture"/>
+                <item android:id="@+id/artgalleries"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:title="Art Galleries"/>
+                <item android:id="@+id/bridges"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:title="Bridges"/>
+                <item android:id="@+id/monuments"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:title="Monuments"/>
+                <item android:id="@+id/commerce"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:title="Commerce"/>
+
+            </menu>
+        </item>
+    </group>-->
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/more_app"
+                android:icon="@drawable/ic_more_black_24dp"
+                android:title="More Apps" />
+            <item
+                android:id="@+id/shere"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Shere Now" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit" />
+        </menu>
+
+    </item>
+
+</menu>
